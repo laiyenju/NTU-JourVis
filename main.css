@@ -1,0 +1,142 @@
+* {
+  /*border: solid 1px;*/
+}
+
+#header {
+  margin: 0px;
+  height: 100vh;
+  text-align: center;
+
+  background-image: url(https://pudding.cool/2017/09/clinics/assets/img/gestation-3@2x.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+  h1 {
+    padding-top: 18%;
+    padding-bottom: 0px;
+  }
+  header small {
+    padding: 30px;
+    padding-top: 5%;
+  }
+  header h6 {
+    padding-top: 15%;
+  }
+
+/* cp-area */
+#cp-area {
+  margin-top: 0px;
+}
+  #cp-area .col-md-6 {
+    padding: 20px;
+  }
+
+  #cp-area .col-md-6 {
+    padding: 80px;
+  }
+  #cp-area .row {
+    margin: 0px;
+  }
+
+/* 主視覺介紹文 */
+#article-graph {
+  background-image: url(https://pudding.cool/2017/09/clinics/assets/img/gestation-3@2x.png);
+  background-size: cover;
+  background-attachment: fixed;
+
+  margin: 0px;
+  height: 100vh;
+}
+  #article-graph h4 {
+    padding-top: 50%;
+  }
+  #article-graph .row {
+    margin: 0px;
+  }
+
+/* 第一象限 */
+#part1 {
+  background-image: url(https://pudding.cool/2017/09/clinics/assets/img/gestation-3@2x.png);
+  background-size: cover;
+  background-attachment: fixed;
+
+  margin: 0px;
+  height: 100vh;
+}
+  #part1 h4 {
+    padding-top: 10%;
+  }
+  #part1 small {
+    display: inline-block;
+    padding-bottom: 10%;
+  }
+
+/* 第二象限 */
+#part2 {
+  background-image: url(https://pudding.cool/2017/09/clinics/assets/img/gestation-3@2x.png);
+  background-size: cover;
+  background-attachment: fixed;
+
+  margin: 0px;
+  height: 100vh;
+}
+  #part2 h4 {
+    padding-top: 10%;
+  }
+  #part2 small {
+    display: inline-block;
+    padding-bottom: 10%;
+  }
+
+/* 第三象限 */
+#part3 {
+  background-image: url(https://pudding.cool/2017/09/clinics/assets/img/gestation-3@2x.png);
+  background-size: cover;
+  background-attachment: fixed;
+
+  margin: 0px;
+  height: 100vh;
+}
+  #part3 h4 {
+    padding-top: 10%;
+  }
+  #part3 small {
+    display: inline-block;
+    padding-bottom: 10%;
+  }
+
+/* 第四象限 */
+  #part4 {
+    background-image: url(https://pudding.cool/2017/09/clinics/assets/img/gestation-3@2x.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin: 0px;
+    height: 100vh;
+  }
+    #part4 h4 {
+      padding-top: 10%;
+    }
+    #part4 small {
+      display: inline-block;
+      padding-bottom: 10%;
+    }
+
+/* 結論 */
+#end-area {
+  margin-top: 0px;
+  height: 70vh;
+}
+  #cp-area .row {
+    margin: 0px;
+  }
+
+
+/* 頁面腳 */
+#footer {
+  margin: 0px;
+  height: 30vh;
+}
+  #footer small {
+    display: block;
+  }
