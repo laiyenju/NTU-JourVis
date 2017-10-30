@@ -1,5 +1,5 @@
 * {
-  /*border: solid 1px;*/
+  border: solid 1px;
 }
 
 html, body {
@@ -43,6 +43,7 @@ html, body {
 /* cp-area */
 #cp-area {
   margin-top: 0px;
+  height: 100vh;
 }
   #cp-area .col-md-6 {
     padding: 20px;
