@@ -1,5 +1,5 @@
 * {
-  border: solid 1px;
+  /*border: solid 1px;*/
 }
 
 html, body {
@@ -11,7 +11,7 @@ html, body {
   height: 100vh;
   text-align: center;
 
-  background-image: url(img/coverphoto-01.svg);
+  background-image: url(img/coverphoto.svg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -20,10 +20,10 @@ html, body {
     padding-bottom: 0px;
   }
   #article-tittle {
-    color: white;
+    color: #fff;
   }
   #article-subtittle {
-    color: white;
+    color: #fff;
   }
   #header p {
     padding: 30px;
@@ -31,13 +31,13 @@ html, body {
     font-size: 1.2em;
     font-family: sans-serif;
     text-align: center;
-    color: white;
+    color: #fff;
   }
   #header h6 {
     padding-top: 10%;
   }
   #team {
-    color: white;
+    color: #fff;
   }
 
 /* cp-area */
