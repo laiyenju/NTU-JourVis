@@ -34,12 +34,8 @@ html, body {
 #cp-area {
   margin-top: 0px;
 }
-  #cp-area .col-md-6 {
-    padding: 20px;
-  }
-
-  #cp-area .col-md-6 {
-    padding: 80px;
+  #cp-area .col-md-6.rank {
+    padding: 0px;
   }
   #cp-area .row {
     margin: 0px;
