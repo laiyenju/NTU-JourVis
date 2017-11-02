@@ -1,56 +1,66 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 * {
-  /*border: solid 1px;*/
+  border: solid 1px;
+  box-sizing: border-box;
 }
 
 html, body {
   margin: 0px;
+  background-color: #f6f1eb;
 }
 
 #header {
   margin: 0px;
   height: 100vh;
-  text-align: center;
+  text-align: right;
 
-  background-image: url(img/coverphoto.svg);
-  background-size: cover;
+  background-color: #f6f1eb;
+  background-image: url(img/cover.gif);
+  background-size: contain;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  font-family: 'Noto Sans TC', sans-serif;
 }
   h1 {
-    padding-top: 15%;
     padding-bottom: 0px;
   }
   #article-tittle {
-    color: #fff;
+    color: #b58859;
   }
   #article-subtittle {
-    color: #fff;
+    color: #b58859;
   }
   #header p {
-    padding: 30px;
-    padding-top: 5%;
     font-size: 1.2em;
-    font-family: sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     text-align: center;
-    color: #fff;
-  }
-  #header h6 {
-    padding-top: 10%;
-  }
-  #team {
-    color: #fff;
+    color: #b58859;
   }
 
 /* cp-area */
 #cp-area {
   margin-top: 0px;
   height: 100vh;
+  background-color: #4e4d4e;
+  font-family: 'Noto Sans TC', sans-serif;
 }
   #cp-area .col-md-6 {
     padding: 20px;
   }
 
-  #cp-area .col-md-6.rank {
+  #cp-area .col-md-12.rank {
     padding: 0px;
+    padding-top: 0px;
+    background-image: url(img/cp-rank.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 50vh;
+
   }
   #cp-area .row {
     margin: 0px;
@@ -58,18 +68,21 @@ html, body {
   #cp-area h3 {
     text-align: center;
     padding-top: 50px;
+    color: #f6f1eb;
   }
   #cp-area hr {
     max-width: 50px;
-    border: solid 1px #E61A1E;
+    border: solid 1px #e36c5c;;
   }
   #cp-area p {
-    font-size: 1em;
-    font-family: sans-serif;
+    font-size: 1.2em;
+    font-family: 'Noto Sans TC', sans-serif;
     text-align: left;
+    color: #f6f1eb;
+    line-height: normal;
   }
   #cp-area img {
-    padding-top: 70px;
+    height: initial;
   }
 
 /* 主視覺介紹文 */
@@ -82,27 +95,35 @@ html, body {
 
   margin: 0px;
   height: 100vh;
+  font-family: 'Noto Sans TC', sans-serif;
 }
-  #article-graph .col-md-3 {
-    background-color: #c0c0c0;
+  #article-graph .container-fluid {
+    padding: 0px;
+  }
+  #article-graph .col-md-3.col-md-offset-9{
+    background-color: #4d4e4d;
   }
   #article-graph h3 {
     padding-top: 20%;
     text-align: center;
+    color: #e36c5c;
+    font-family: 'Noto Sans TC', sans-serif;
   }
   #article-graph .row {
     margin: 0px;
   }
   #article-graph hr {
     max-width: 50px;
-    border: solid 1px #E61A1E;
+    border: solid 1px #edafaa;
   }
   #article-graph p {
     display: inline-block;
     padding-bottom: 5%;
-    font-size: 1em;
-    font-family: sans-serif;
+    font-size: 1.2em;
+    font-family: 'Noto Sans TC', sans-serif;
     text-align: left;
+    color: #f6f1eb;
+    line-height: normal;
   }
 
 /* 第一象限 */
@@ -115,20 +136,25 @@ html, body {
 
   margin: 0px;
   height: 100vh;
+  font-family: 'Noto Sans TC', sans-serif;
 }
-  #part1 .col-md-5 {
-    background-color: #c0c0c0;
+  #part1 .col-md-6 {
+    background-color: #4e4d4e;
   }
   #part1 h3 {
     padding-top: 5%;
     color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
   }
   #part1 p {
     display: inline-block;
     padding-bottom: 5%;
-    font-size: 1em;
-    font-family: sans-serif;
+    font-size: 1.2em;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: lighter;
     text-align: left;
+    color: #f6f1eb;
+    line-height: normal;
   }
 
 /* video-1 */
@@ -139,9 +165,11 @@ html, body {
   #video1 h2 {
     color: #E61A1E;
     padding-top: 5%;
+    font-family: 'Noto Sans TC', sans-serif;
   }
   #video1 h3 {
     color: white;
+    font-family: 'Noto Sans TC', sans-serif;
   }
   #video1 .embed-responsive.embed-responsive-16by9 {
     padding-top: 10%;
@@ -157,20 +185,25 @@ html, body {
 
   margin: 0px;
   height: 100vh;
+  font-family: 'Noto Sans TC', sans-serif;
 }
   #part2 .col-md-5 {
-    background-color: #c0c0c0;
+    background-color: #4e4d4e;
   }
   #part2 h3 {
     padding-top: 5%;
     color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
   }
   #part2 p {
     display: inline-block;
     padding-bottom: 5%;
-    font-size: 1em;
-    font-family: sans-serif;
+    font-size: 1.2em;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: lighter;
     text-align: left;
+    color: #f6f1eb;
+    line-height: normal;
   }
 
 /* 第三象限 */
@@ -183,21 +216,44 @@ html, body {
 
   margin: 0px;
   height: 100vh;
+  font-family: 'Noto Sans TC', sans-serif;
 }
   #part3 .col-md-5 {
-    background-color: #c0c0c0;
+    background-color: #4e4d4e;
   }
   #part3 h3 {
     padding-top: 5%;
     color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
   }
   #part3 p {
     display: inline-block;
     padding-bottom: 5%;
-    font-size: 1em;
-    font-family: sans-serif;
+    font-size: 1.2em;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: lighter;
     text-align: left;
+    color: #f6f1eb;
+    line-height: normal;
   }
+
+/* video-2 */
+ #video2 {
+    height: 100vh;
+    background-color: black;
+  }
+    #video1 h2 {
+      color: #E61A1E;
+      padding-top: 5%;
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+    #video1 h3 {
+      color: white;
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+    #video1 .embed-responsive.embed-responsive-16by9 {
+      padding-top: 10%;
+    }
 
 /* 第四象限 */
 #part4 {
@@ -209,9 +265,10 @@ html, body {
 
   margin: 0px;
   height: 100vh;
+  font-family: 'Noto Sans TC', sans-serif;
 }
   #part4 .col-md-5 {
-    background-color: #c0c0c0;
+    background-color: #4e4d4e;
   }
     #part4 h3 {
       padding-top: 5%;
@@ -220,34 +277,45 @@ html, body {
     #part4 p {
       display: inline-block;
       padding-bottom: 5%;
-      font-size: 1em;
-      font-family: sans-serif;
+      font-size: 1.2em;
+      font-family: 'Noto Sans TC', sans-serif;
+      font-weight: lighter;
       text-align: left;
+      color: #f6f1eb;
+      line-height: normal;
     }
 
 /* 結論 */
 #end-area {
   margin-top: 0px;
   height: 70vh;
+  background-color: #eae5df;
+  font-family: 'Noto Sans TC', sans-serif;
 }
   #end-area .row {
     margin: 0px;
   }
   #end-area h2 {
     padding-top: 50px;
+    color: #4d4e4d;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bold;
   }
   #end-area hr {
     max-width: 50px;
-    border: solid 1px #E61A1E;
+    border: solid 1px #e36c5c;
   }
   #end-area p {
-    font-size: 1em;
-    font-family: sans-serif;
+    font-size: 1.2em;
+    font-family: 'Noto Sans TC', sans-serif;
     text-align: left;
+    line-height: normal;
   }
 
 /* 頁面腳 */
 #footer {
   margin: 0px;
   height: 30vh;
+  background-color: #4e4d4e;
+  font-family: 'Noto Sans TC', sans-serif;
 }
