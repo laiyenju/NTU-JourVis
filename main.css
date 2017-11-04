@@ -54,8 +54,8 @@ html, body {
   #cp-area .col-md-12.rank {
     padding: 0px;
     padding-top: 0px;
-    background-image: url(img/cp-rank.svg);
-    background-size: 100%;
+    background-image: url(img/cp-rank-b.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -123,7 +123,7 @@ html, body {
     font-family: 'Noto Sans TC', sans-serif;
     text-align: left;
     color: #f6f1eb;
-    line-height: normal;
+    line-height: 2em;
   }
 
 /* 第一象限 */
@@ -154,16 +154,16 @@ html, body {
     font-weight: lighter;
     text-align: left;
     color: #f6f1eb;
-    line-height: normal;
+    line-height: 2em;
   }
 
 /* video-1 */
 #video1 {
   height: 100vh;
-  background-color: black;
+  background-color: #edafaa;
 }
   #video1 h2 {
-    color: #E61A1E;
+    color: #4e4d4e;
     padding-top: 5%;
     font-family: 'Noto Sans TC', sans-serif;
   }
@@ -203,7 +203,7 @@ html, body {
     font-weight: lighter;
     text-align: left;
     color: #f6f1eb;
-    line-height: normal;
+    line-height: 2em;
   }
 
 /* 第三象限 */
@@ -234,24 +234,24 @@ html, body {
     font-weight: lighter;
     text-align: left;
     color: #f6f1eb;
-    line-height: normal;
+    line-height: 2em;
   }
 
 /* video-2 */
  #video2 {
     height: 100vh;
-    background-color: black;
+    background-color: #edafaa;
   }
-    #video1 h2 {
-      color: #E61A1E;
+    #video2 h2 {
+      color: #4e4d4e;
       padding-top: 5%;
       font-family: 'Noto Sans TC', sans-serif;
     }
-    #video1 h3 {
+    #video2 h3 {
       color: white;
       font-family: 'Noto Sans TC', sans-serif;
     }
-    #video1 .embed-responsive.embed-responsive-16by9 {
+    #video2 .embed-responsive.embed-responsive-16by9 {
       padding-top: 10%;
     }
 
@@ -282,8 +282,20 @@ html, body {
       font-weight: lighter;
       text-align: left;
       color: #f6f1eb;
-      line-height: normal;
+      line-height: 2em;
     }
+
+/* 主視覺背景 */
+#main-graph {
+  background-image: url(img/main-graph.svg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin: 0px;
+  height: 100vh;
+}
 
 /* 結論 */
 #end-area {
@@ -309,7 +321,7 @@ html, body {
     font-size: 1.2em;
     font-family: 'Noto Sans TC', sans-serif;
     text-align: left;
-    line-height: normal;
+    line-height: 2em;
   }
 
 /* 頁面腳 */
@@ -319,3 +331,18 @@ html, body {
   background-color: #4e4d4e;
   font-family: 'Noto Sans TC', sans-serif;
 }
+  #footer .col-md-4.team {
+    text-align: center;
+    color: #edafaa;
+  }
+  #footer p {
+    font-size: 0.8em;
+    line-height: 1em;
+    color: #eae5df;
+  }
+  #footer h5 {
+    color: #eae5df;
+  }
+  #footer .col-md-3.col-md-offset-1 {
+    color: #eae5df;
+  }
