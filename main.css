@@ -87,7 +87,7 @@ html, body {
 
 /* 主視覺介紹文 */
 #article-graph {
-  background-image: url(img/main-graph.svg);
+  background-image: url(img/main-graph.gif);
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ html, body {
 
 /* 第一象限 */
 #part1 {
-  background-image: url(img/main-graph.svg);
+  background-image: url(img/part1.gif);
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -177,7 +177,7 @@ html, body {
 
 /* 第二象限 */
 #part2 {
-  background-image: url(img/main-graph.svg);
+  background-image: url(img/part2.gif);
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ html, body {
 
 /* 第三象限 */
 #part3 {
-  background-image: url(img/main-graph.svg);
+  background-image: url(img/part3.gif);
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -257,7 +257,7 @@ html, body {
 
 /* 第四象限 */
 #part4 {
-  background-image: url(img/main-graph.svg);
+  background-image: url(img/part4.gif);
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@ html, body {
 
 /* 主視覺背景 */
 #main-graph {
-  background-image: url(img/main-graph.svg);
+  background-image: url(img/main-graph.gif);
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
