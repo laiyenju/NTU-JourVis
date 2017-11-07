@@ -164,7 +164,7 @@ html, body {
 }
   #video1 h2 {
     color: #4e4d4e;
-    padding-top: 5%;
+    padding-top: 5px;
     font-family: 'Noto Sans TC', sans-serif;
   }
   #video1 h3 {
@@ -172,7 +172,7 @@ html, body {
     font-family: 'Noto Sans TC', sans-serif;
   }
   #video1 .embed-responsive.embed-responsive-16by9 {
-    padding-top: 10%;
+    padding-top: 10px;
   }
 
 /* 第二象限 */
@@ -244,7 +244,7 @@ html, body {
   }
     #video2 h2 {
       color: #4e4d4e;
-      padding-top: 5%;
+      padding-top: 5px;
       font-family: 'Noto Sans TC', sans-serif;
     }
     #video2 h3 {
@@ -252,7 +252,7 @@ html, body {
       font-family: 'Noto Sans TC', sans-serif;
     }
     #video2 .embed-responsive.embed-responsive-16by9 {
-      padding-top: 10%;
+      padding-top: 10px;
     }
 
 /* 第四象限 */
